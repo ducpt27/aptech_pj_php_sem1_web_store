@@ -1,0 +1,31 @@
+.tt-giaohang_address {
+	line-height: 10px;
+	color: black;
+}
+@media screen and (max-width: 768px){	
+	.tt_dh-tb_chitiet {
+		overflow-x: scroll;
+	}
+}
+.btn-back_qltk {
+	border: none;
+	background-color: #999;
+	padding: 6px 20px;
+	border-radius: 5px;
+	text-align: center; 
+	padding-top: 7px;
+	cursor: pointer;
+}
+.btn-back_qltk a {
+	color: white;
+	font-size: 16px;
+}
+.btn-back_qltk a:hover {
+	text-decoration: none;
+}
+.btn-back_qltk:hover {
+	background-color: #c73116;
+}
+.btn-back_qltk i {
+	padding-right: 3px;
+}

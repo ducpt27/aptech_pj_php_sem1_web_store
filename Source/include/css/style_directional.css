@@ -1,0 +1,33 @@
+	/* --directional-- */
+	.directional {
+		background-color: #F5F6FA;
+		color: #666666;
+		width: 100%;
+		text-align: center;
+		height: 48px;
+		line-height: 48px;
+		margin-bottom: 20px;
+		font-weight: bold;
+	}
+	.directional-title {
+		display: inline-block;
+		padding: 0 4px;
+		cursor: pointer;
+	}
+	.directional-title:hover {
+		color: #E73918;
+	}
+	.directional-title:focus {
+		outline: none;
+	}
+	.directional a {
+		color: #666666;
+	}
+	.directional a:hover {
+		color: #E73918;
+		text-decoration: none;
+	}
+	.directional a:focus, .directional:focus {
+		outline: none;
+	}
+	/* end --directional-- */

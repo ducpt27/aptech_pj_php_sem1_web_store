@@ -1,0 +1,47 @@
+a:hover {
+	text-decoration: none;
+}
+.qltk-addressdf {
+	/*line-height: 16px;*/
+}
+.btn-qltk {
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 4px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	background-color: #E73918;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.btn-qltk:hover {
+	background-color: #C73116;
+}
+.btn-qltk:hover a {
+	text-decoration: none;
+}
+.btn-qltk a {
+	color: white;
+}
+.tt_kh i{
+	width: 17px;
+	text-align: center;
+	color: #E73918;
+}
+.tt_dh h4 {
+	display: inline-block;
+}
+.tt_dh_select {
+	display: inline-block;
+	padding-left: 30px;
+	margin: 10px 0;
+}
+@media screen and (max-width: 768px){	
+	.tt_dh_table {
+		overflow-x: scroll;
+	}
+}
+#form-add_address {
+	display: none;
+}

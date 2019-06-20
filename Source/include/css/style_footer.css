@@ -1,0 +1,134 @@
+* footer {
+	box-sizing: border-box;
+}
+.footer-logo {
+	width: 220px;
+	/*height: 100%;*/
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 18px;
+}
+.footer-logo img { 
+	width: 220px;
+	height: 70px;
+}
+@media screen and (max-width: 1200px){
+    .footer-logo img{
+    	width: 200px;
+    	height: 62px;
+    }
+}
+@media screen and (max-width: 992px){
+    .footer-logo {
+		height: 80px;
+	}
+	footer #text-title:hover {
+		color: #E73918 !important;
+		cursor: pointer;
+	}
+	.footer-email-ct {
+		height: 90px !important;
+	}
+}
+.camket {
+	margin-top: 30px;
+}
+@media screen and (max-width: 767px){
+    footer .visible-xs {
+		display: inline-block !important;
+    }
+    .camket {
+		margin-top: 0;
+	}
+	.camket h3 {
+		margin-top: 5px !important;
+		margin-bottom: 5px !important;
+	}
+}
+footer .text-title {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px 0;
+}
+footer .text-content {
+	color: #666;
+	padding: 5px 0;
+}
+footer .text-content a {
+	color: #666;
+}
+footer .text-content a:hover {
+	color: #E73918;
+	text-decoration: none;
+}
+footer .text-content i {
+	width: 18px;
+	color: #E73918;
+}
+.footer-email-ct {
+	position: relative;
+	height: 130px;
+	padding-top: 25px;
+}
+.footer-email-ct input {
+	width: 100%;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: 1px solid #999;
+	border-radius: 5px;
+}
+.footer-email-ct input:focus {
+	outline: none;
+}
+.footer-email-ct button {
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	background-color: white;
+	border: none;
+	right: 5px;
+	top: 28px;
+	color: #E73918;
+}
+.footer-email-ct button:focus {
+	outline: none;
+}
+.the_thanh_toan {
+	margin-top: 20px;
+	padding: 15px;
+	text-align: center;
+}
+.the_thanh_toan i {
+	color: #333;
+	font-size: 30px;
+	padding: 0 5px;
+}
+.shield i {
+	color: #2478BC !important;
+}
+
+/*scroll-to-top*/
+#scroll-to-top {
+	position: fixed;
+	bottom: 60px;
+	right: 20px;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 300ms ease-in-out;
+	color: #E73918;
+	font-size: 20px;
+	border: none;
+	background-color: #E73918;
+	color: white;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+}
+.footer-policy {
+	border-top: 1px #DCDDE1 solid;
+	padding: 18px 0;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+}
